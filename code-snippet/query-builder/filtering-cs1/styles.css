@@ -1,0 +1,24 @@
+#container {
+    visibility: hidden;
+}
+
+#loader {
+  color: #008cff;
+  height: 40px;
+  left: 45%;
+  position: absolute;
+  top: 45%;
+  width: 30%;
+}
+
+.e-qb-button {
+	margin: 2% 0 0 15%;
+}
+
+.e-qb-button button {
+	margin-right: 20px;
+}
+
+.e-query-builder {
+  margin: 0 auto;
+}
