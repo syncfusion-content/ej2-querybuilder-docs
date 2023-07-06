@@ -2,7 +2,7 @@
      * remote data querybuilder sample
      */
 var data = new ej.data.DataManager({
-    url: 'https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Orders/',
+    url: 'https://services.syncfusion.com/js/production/api/orders',
     adaptor: new ej.data.ODataAdaptor
 });
 
