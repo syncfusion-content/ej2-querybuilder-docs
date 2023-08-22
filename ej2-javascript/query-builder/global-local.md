@@ -48,6 +48,8 @@ The following list of properties and its values are used in the Query Builder.
 | IsNotEmpty | Is Not Empty |
 | IsNull | Is Null |
 | IsNotNull | Is Not Null |
+| True | True |
+| False | False |
 
 {% if page.publishingplatform == "typescript" %}
 
