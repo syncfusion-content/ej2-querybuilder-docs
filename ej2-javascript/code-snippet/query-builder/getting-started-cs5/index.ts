@@ -1,12 +1,11 @@
 
 
 import { QueryBuilder, ColumnsModel, RuleModel } from '@syncfusion/ej2-querybuilder';
-import { DataManager, ODataAdaptor } from '@syncfusion/ej2-data';
+import { DataManager, ODataV4Adaptor } from '@syncfusion/ej2-data';
 
 let data: DataManager = new DataManager({
-    url: 'https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Orders/',
-    adaptor: new ODataAdaptor,
-    crossDomain: true
+    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Orders/',
+    adaptor: new ODataV4Adaptor
 });
 
     let columnData: ColumnsModel[] = [
