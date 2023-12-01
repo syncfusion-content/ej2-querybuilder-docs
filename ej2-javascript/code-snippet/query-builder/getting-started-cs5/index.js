@@ -2,7 +2,7 @@
      * Odata querybuilder sample
      */
     var data = new ej.data.DataManager({
-    url: 'https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Orders/',
+    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Orders/',
     adaptor: new ej.data.ODataAdaptor(),
     crossDomain: true
 });
