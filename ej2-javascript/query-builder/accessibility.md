@@ -63,7 +63,7 @@ The Query Builder component's accessibility levels are ensured through an [acces
 
 The accessibility compliance of the Query Builder component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/query-builder.html) in a new window to evaluate the accessibility of the Query Builder component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/query-builder.html" %}
+{% previewsample "page.domainurl/code-snippet/query-builder/getting-started-cs1" %}
 
 ## See also
 
