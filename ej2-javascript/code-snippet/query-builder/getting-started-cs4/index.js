@@ -3,7 +3,7 @@
      */
 var data = new ej.data.DataManager({
     url: 'https://services.syncfusion.com/js/production/api/orders',
-    adaptor: new ej.data.ODataAdaptor
+    adaptor: new ej.data.ODataAdaptor()
 });
 
     var columnData = [
