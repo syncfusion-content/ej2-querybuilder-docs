@@ -5,7 +5,7 @@ import { DataManager, ODataAdaptor } from '@syncfusion/ej2-data';
 
 let data: DataManager = new DataManager({
     url: 'https://services.syncfusion.com/js/production/api/orders',
-    adaptor: new ODataAdaptor
+    adaptor: new ODataAdaptor()
 });
 
     let columnData: ColumnsModel[] = [
