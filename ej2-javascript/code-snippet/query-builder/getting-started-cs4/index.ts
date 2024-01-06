@@ -24,11 +24,11 @@ let data: DataManager = new DataManager({
             'value': 1001
         },
         {
-            'label': 'Title',
-            'field': 'Title',
+            'label': 'Country',
+            'field': 'Country',
             'type': 'string',
             'operator': 'equal',
-            'value': 'Sales Manager'
+            'value': 'USA'
         }]
     };
     let qryBldrObj: QueryBuilder = new QueryBuilder({
