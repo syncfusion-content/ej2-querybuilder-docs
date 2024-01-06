@@ -2,8 +2,8 @@
      * Odata querybuilder sample
      */
     var data = new ej.data.DataManager({
-    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Employees/',
-    adaptor: new ej.data.ODataV4Adaptor(),
+    url: 'https://services.syncfusion.com/js/production/api/Employees/',
+    adaptor: new ej.data.ODataAdaptor(),
     crossDomain: true
 });
 

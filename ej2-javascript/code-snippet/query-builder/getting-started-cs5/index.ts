@@ -1,11 +1,11 @@
 
 
 import { QueryBuilder, ColumnsModel, RuleModel } from '@syncfusion/ej2-querybuilder';
-import { DataManager, ODataV4Adaptor } from '@syncfusion/ej2-data';
+import { DataManager, ODataAdaptor } from '@syncfusion/ej2-data';
 
 let data: DataManager = new DataManager({
-    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Employees/',
-    adaptor: new ODataV4Adaptor(),
+    url: 'https://services.syncfusion.com/js/production/api/Employees/',
+    adaptor: new ODataAdaptor(),
     crossDomain: true
 });
 
