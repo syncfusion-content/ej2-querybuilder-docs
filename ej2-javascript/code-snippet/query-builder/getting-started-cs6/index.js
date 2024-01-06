@@ -2,7 +2,7 @@
      * Odatav4 querybuilder sample
      */
     var data = new ej.data.DataManager({
-    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Orders/',
+    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Employees/',
     adaptor: new ej.data.ODataV4Adaptor()
 });
 
