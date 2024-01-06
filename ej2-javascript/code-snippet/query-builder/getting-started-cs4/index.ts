@@ -4,20 +4,15 @@ import { QueryBuilder, ColumnsModel, RuleModel } from '@syncfusion/ej2-querybuil
 import { DataManager, ODataAdaptor } from '@syncfusion/ej2-data';
 
 let data: DataManager = new DataManager({
-    url: 'https://services.syncfusion.com/js/production/api/orders',
+    url: 'https://services.syncfusion.com/js/production/api/employees',
     adaptor: new ODataAdaptor()
 });
 
     let columnData: ColumnsModel[] = [
-        {
-            field: 'EmployeeID', label: 'EmployeeID', type: 'number'
-        },
+        { field: 'EmployeeID', label: 'EmployeeID', type: 'number' },
         { field: 'FirstName', label: 'FirstName', type: 'string' },
-        { field: 'TitleOfCourtesy', label: 'Title Of Courtesy', type: 'boolean', values: ['Mr.', 'Mrs.'] },
-        { field: 'Title', label: 'Title', type: 'string' },
-        { field: 'HireDate', label: 'HireDate', type: 'date', format: 'dd/MM/yyyy' },
-        { field: 'Country', label: 'Country', type: 'string' },
-        { field: 'City', label: 'City', type: 'string' }
+        { field: 'Designation', label: 'Designation', type: 'string' },
+        { field: 'Country', label: 'Country', type: 'string' }
     ];
     let importRules: RuleModel = {
         'condition': 'and',
