@@ -73,7 +73,7 @@ let employeeData: Object[] = [{
         width: '70%',
         dataSource: employeeData,
         columns: columnData,
-        showButtons: { ruleDelete: true , groupInsert: true, groupDelete: true, cloneGroup: true, cloneRule: true},
+        showButtons: { ruleDelete: true , groupInsert: true, groupDelete: true, cloneGroup: false, cloneRule: false},
         rule: importRules
     });
     qryBldrObj.appendTo('#querybuilder');
