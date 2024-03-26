@@ -15,8 +15,8 @@ The Query Builder functionality extends to cloning both individual rules and ent
 
 You can clone groups and rules by interacting through the user interface and methods.
 
-* Use the [`cloneGroup`](https://ej2.syncfusion.com/documentation/api/query-builder/#cloneGroup) method to clone group.
-* Use [`cloneRule`](https://ej2.syncfusion.com/documentation/api/query-builder/#cloneRule) method to clone rule.
+* Use the [`cloneGroup`](https://ej2.syncfusion.com/documentation/api/query-builder/#clonegroup) method to clone group.
+* Use [`cloneRule`](https://ej2.syncfusion.com/documentation/api/query-builder/#clonerule) method to clone rule.
 
 {% if page.publishingplatform == "typescript" %}
 
